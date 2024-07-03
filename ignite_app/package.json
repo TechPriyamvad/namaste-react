@@ -1,0 +1,19 @@
+{
+  "name": "ignite_app",
+  "version": "1.0.0",
+  "description": "learning how to create production ready react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechPriyamvad/namaste-react.git"
+  },
+  "author": "Priyamvad Acharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TechPriyamvad/namaste-react/issues"
+  },
+  "homepage": "https://github.com/TechPriyamvad/namaste-react#readme"
+}
