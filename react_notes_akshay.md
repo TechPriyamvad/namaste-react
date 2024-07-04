@@ -20,14 +20,25 @@
     - When we install a dependency, we install latest version of that dependency.If we want that our app should automatically upgrade it's version when a minor release is done we place a `caret` symbol before version number i.e ^v1.2.3 -> ^v1.2.4
     - When we install a dependency, we install latest version of that dependency.If we want that our app should automatically upgrade it's version when a major release is done we place a `tilde` symbol before version number i.e ~v1.2.3 -> ~v1.2.4
     - What is the difference between package.json and package-lock.json
-        - package.json: It is a file which store approximate versions of dependencies used in our application
-        - package-lock.json: It is a file which stores actual version of dependencies used in our application
+        - package.json: 
+            - It is a file which store approximate versions of dependencies used in our application
+            - It stores which dependencies are needed in our project
+        - package-lock.json: 
+            - It is a file which stores actual version of dependencies used in our application
+            - It also contains the information that which dependency require which other depenedency to work.
     - What are node modules
         - Database | collection of dependencies which is used in our application
         - It acts as a tree of dependencies.
+        - It stores the code of all the dependencies.
         - `Transitive depencdency`: It's a chain of dependency where one dependency is dependent on another dependency and so on
     - We should push package.json and package-lock.json to github because they are necesaary for installing correct version of package in our project.
     - We don't need to push node modules to github because we regenerate them using package.json and package-lock.json.
+ - `npx`
+    - It is used to execute a npm package.
 - `Parcel`
     - It is a bundler which is used to bundle a project
+- `browser list`
 
+
+## Doubts
+- Why size of package-lock.json is heavy

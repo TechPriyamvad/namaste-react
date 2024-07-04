@@ -1,2 +1,4 @@
 hello_world_react_app/.vscode
 ignite_app/node_modules
+ignite_app/.parcel-cache
+ignite_app/dist
