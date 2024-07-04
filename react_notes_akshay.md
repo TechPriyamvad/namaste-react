@@ -36,9 +36,10 @@
  - `npx`
     - It is used to execute a npm package.
 - `Parcel`
-    - It is a bundler which is used to bundle a project
+    - It is a build tool which is used to build a project
 - `browser list`
-
+    - It is tool which is used to provide multiple browser support in an application
 
 ## Doubts
+- Why we use react when we can create UI using javascript also
 - Why size of package-lock.json is heavy
