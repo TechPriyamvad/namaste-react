@@ -1,0 +1,29 @@
+{
+  "name": "laying_the_foundation",
+  "version": "1.0.0",
+  "description": "react fundamentals",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel App.html",
+    "build": "npx parcel build App.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechPriyamvad/namaste-react.git"
+  },
+  "author": "Priyamvad Acharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TechPriyamvad/namaste-react/issues"
+  },
+  "homepage": "https://github.com/TechPriyamvad/namaste-react#readme",
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

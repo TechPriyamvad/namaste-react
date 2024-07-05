@@ -26,6 +26,7 @@
         - package-lock.json: 
             - It is a file which stores actual version of dependencies used in our application
             - It also contains the information that which dependency require which other depenedency to work.
+            - It is used to ensure that multiple machines in which application is executing installed the same version of dependency as intended.
     - What are node modules
         - Database | collection of dependencies which is used in our application
         - It acts as a tree of dependencies.
@@ -38,8 +39,19 @@
 - `Parcel`
     - It is a build tool which is used to build a project
 - `browser list`
-    - It is tool which is used to provide multiple browser support in an application
+    - It is tool which is used to provide multiple browser version support in an application
+
+### JSX
+- It is html like syntax or XML like syntax
+
+### Babel
+- It is javascript compiler which converts jsx into javascript code which javascript engine understands
+
+### What are functional components
+- They are javascript functions which return jsx code i.e react elements
 
 ## Doubts
 - Why we use react when we can create UI using javascript also
 - Why size of package-lock.json is heavy
+- What are map files in dist folder created by parcel
+- How JSX prevent cross site scripting attack

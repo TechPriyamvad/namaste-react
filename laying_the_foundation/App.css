@@ -1,0 +1,8 @@
+#h1{
+background-color: aquamarine;
+}
+.headerComponent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
